@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai5</title>
+</head>
+<body>
+<script>
+    let examScore = Number(prompt("nhap diem kiem tra: "));
+    let midtermScores = Number(prompt("nhap diem thi giua ki: "));
+    let finalScore = Number(prompt("nhap diem cuoi ki: "));
+    let averageSore = (examScore + midtermScores*2 +finalScore*3)/6;
+    if (averageSore >= 8.5){
+        alert("loai gioi!");
+    }else if (averageSore >= 6.5){
+        alert("loai kha!")
+    }else if (averageSore >= 5){
+        alert("loai trung binh!")
+    }
+    else if (averageSore >= 3.5){
+        alert("loai yeu!")
+    }else {
+        alert("loai kem!")
+    }
+
+</script>
+</body>
+</html>
